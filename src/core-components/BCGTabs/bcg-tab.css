@@ -1,0 +1,32 @@
+li {
+  cursor: pointer;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+  margin-right: 1.5em;
+}
+
+.tab-list-active {
+  border: solid #ccc;
+  border-width: 0 0 4px 0;
+  border-color: #34a247;
+}
+
+.tab-child-count {
+  margin-left: 1em;
+  background-color: #34a247;
+  width: 1.5em;
+  text-align: center;
+  border-radius: 20%;
+  color: white;
+  font-size: smaller;
+}
+
+.tab-label {
+  display: flex;
+  font-weight: 500;
+}

@@ -1,0 +1,42 @@
+export const MOCK_BCG_TAB_DATA = [
+    {
+        heading: "Authors",
+        data: [
+            {
+                name: "Neha Vohra",
+                title: "Global service Recruiting",
+                location: "Global services New Delhi",
+                email: "test1@test.com"
+            },
+            {
+                name: "Ravi Kumar",
+                title: "Consultant",
+                location: "Mumbai",
+                email: "test2@test.com"
+            },
+            {
+                name: "Soniya Jain",
+                title: "Senior Consultant",
+                location: "Boston",
+                email: "test3@test.com"
+            }
+        ]
+    },
+    {
+        heading: "Original Requestor",
+        data: [
+            {
+                name: "Ravi Kumar",
+                title: "Consultant",
+                location: "Mumbai",
+                email: "test4@test.com"
+            },
+            {
+                name: "Soniya Jain",
+                title: "Senior Consultant",
+                location: "Boston",
+                email: "test5@test.com"
+            }
+        ]
+    }
+]

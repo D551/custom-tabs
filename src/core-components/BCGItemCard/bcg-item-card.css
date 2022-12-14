@@ -1,0 +1,55 @@
+.item-card{
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 1em;
+    width: 17em;
+    height: 6em;
+}
+
+.item-avatar{
+     display: flex;  
+     flex-direction: column; 
+}
+
+.avatar{
+    width:3em;
+    border-radius: 100%;
+    height: 3em;
+    margin: 0.6em;
+    background-color: rgb(139, 154, 155);
+}
+
+.mail{
+    height: 1em;
+    width: 1em;
+    margin-left: 1.5em;
+}
+
+
+.item-info{
+    margin:  0.6em 0em 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    font-weight: 650;
+    text-overflow: ellipsis;
+}
+
+.title{
+    width:12em;
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+.location{
+    font-size: small;
+    padding-top: 4px;
+    text-overflow: ellipsis;
+}
+
+.avatar-image{
+    padding: 11px;
+}
